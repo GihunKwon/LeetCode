@@ -5,6 +5,4 @@ class Solution:
            for j in i.split(separator):
                 if j:
                    answer.append(j)
-                else:
-                    pass
         return answer
