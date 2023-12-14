@@ -2,13 +2,15 @@ class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         answer = []
         for i in range(left,right+1):
-            ch = False
+            bool = False
             for j in str(i):
-                if int(j) != 0 and i % int(j) == 0:
-                    ch = True
+                if j != '0' and i % int(j) == 0:
+                    bool = True
                 else:
-                    ch = False
+                    bool = False
                     break
-            if ch:
+            if bool:
                 answer.append(i)
         return answer
+
+        
