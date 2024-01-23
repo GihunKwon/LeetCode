@@ -1,16 +1,16 @@
 # Write your MySQL query statement below
-SELECT id,
-    sum(if(month = 'Jan',revenue,null)) as Jan_Revenue,
-    sum(if(month = 'Feb',revenue,null)) as Feb_Revenue,
-    sum(if(month = 'Mar',revenue,null)) as Mar_Revenue ,
-    sum(if(month = 'Apr',revenue,null)) as Apr_Revenue ,
-    sum(if(month = 'May',revenue,null)) as May_Revenue ,
-    sum(if(month = 'Jun',revenue,null)) as Jun_Revenue ,
-    sum(if(month = 'Jul',revenue,null)) as Jul_Revenue ,
-    sum(if(month = 'Aug',revenue,null)) as Aug_Revenue ,
-    sum(if(month = 'Sep',revenue,null)) as Sep_Revenue ,
-    sum(if(month = 'Oct',revenue,null)) as Oct_Revenue ,
-    sum(if(month = 'Nov',revenue,null)) as Nov_Revenue,
-    sum(if(month = 'Dec',revenue,null)) as Dec_Revenue 
+SELECT id, 
+    SUM(CASE WHEN month = 'Jan' THEN revenue ELSE NULL END) AS Jan_REVENUE,
+    SUM(CASE WHEN month = 'Feb' THEN revenue ELSE NULL END) AS Feb_REVENUE,
+    SUM(CASE WHEN month = 'Mar' THEN revenue ELSE NULL END) AS Mar_REVENUE,
+    SUM(CASE WHEN month = 'Apr' THEN revenue ELSE NULL END) AS Apr_REVENUE,
+    SUM(CASE WHEN month = 'May' THEN revenue ELSE NULL END) AS May_REVENUE,
+    SUM(CASE WHEN month = 'Jun' THEN revenue ELSE NULL END) AS Jun_REVENUE,
+    SUM(CASE WHEN month = 'Jul' THEN revenue ELSE NULL END) AS Jul_REVENUE,
+    SUM(CASE WHEN month = 'Aug' THEN revenue ELSE NULL END) AS Aug_REVENUE,
+    SUM(CASE WHEN month = 'Sep' THEN revenue ELSE NULL END) AS Sep_REVENUE,
+    SUM(CASE WHEN month = 'Oct' THEN revenue ELSE NULL END) AS Oct_REVENUE,
+    SUM(CASE WHEN month = 'Nov' THEN revenue ELSE NULL END) AS Nov_REVENUE,
+    SUM(CASE WHEN month = 'Dec' THEN revenue ELSE NULL END) AS Dec_REVENUE
 FROM Department
 GROUP BY id
