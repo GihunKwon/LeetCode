@@ -7,5 +7,5 @@ UNION
 SELECT B.employee_id
 FROM Employees A
 RIGHT JOIN Salaries B ON A.employee_id = B.employee_id
-WHERE A.name IS NULL
+WHERE A.NAME IS NULL
 ORDER BY employee_id
