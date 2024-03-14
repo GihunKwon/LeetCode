@@ -3,4 +3,5 @@ class Solution:
         for i,j in combinations(nums,2):
             if bin(i|j)[2:].endswith('0'):
                 return True
+                break
         return False
