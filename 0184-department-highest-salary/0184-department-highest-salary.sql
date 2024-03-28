@@ -4,7 +4,7 @@ FROM Employee A
 JOIN Department B ON A.departmentId = B.id
 WHERE (A.departmentId,A.salary) IN
     (
-    select departmentId,MAX(salary)
-    from Employee
-    group by departmentId
+        select departmentId,Max(salary)
+        from Employee
+        group by departmentId
     )
