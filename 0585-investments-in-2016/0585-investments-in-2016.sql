@@ -11,5 +11,5 @@ AND (lat,lon) IN (
     select lat,lon
     from Insurance
     group by lat,lon
-    having count(*) = 1
+    having COUNT(*) = 1
 )
