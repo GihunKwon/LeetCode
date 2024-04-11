@@ -1,8 +1,11 @@
 # Write your MySQL query statement below
+WITH total_weight AS (
+    SELECT person_name,turn,SUM(weight) OVER (ORDER BY turn) AS W
+    from Queue
+)
+
 SELECT person_name
-FROM (
-    select person_name,turn,sum(weight) over (order by turn) as cum 
-    from Queue) A
-WHERE cum <= 1000
+FROM total_weight
+WHERE w <= 1000
 ORDER BY turn DESC
 LIMIT 1
