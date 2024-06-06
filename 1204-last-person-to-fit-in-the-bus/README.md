@@ -1,6 +1,7 @@
-<h2><a href="https://leetcode.com/problems/last-person-to-fit-in-the-bus/">1204. Last Person to Fit in the Bus</a></h2><h3>Medium</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table: <code>Queue</code></p>
+<h2><a href="https://leetcode.com/problems/last-person-to-fit-in-the-bus/">1204. Last Person to Fit in the Bus</a></h2><h3>Medium</h3><hr><p>Table: <code>Queue</code></p>
 
-<pre>+-------------+---------+
+<pre>
++-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
 | person_id   | int     |
@@ -26,7 +27,8 @@ weight is the weight of the person in kilograms.
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> 
+<pre>
+<strong>Input:</strong> 
 Queue table:
 +-----------+-------------+--------+------+
 | person_id | person_name | weight | turn |
@@ -56,4 +58,3 @@ Queue table:
 | 6    | 1  | Winston   | 500    | ___          |
 +------+----+-----------+--------+--------------+
 </pre>
-</div>
