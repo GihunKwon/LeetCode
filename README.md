@@ -23,3 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2412-minimum-amount-of-time-to-fill-cups](https://github.com/GRetriever/LeetCode/tree/master/2412-minimum-amount-of-time-to-fill-cups) |
+# Database
+|  |
+| ------- |
+| [1327-last-person-to-fit-in-the-bus](https://github.com/GRetriever/LeetCode/tree/master/1327-last-person-to-fit-in-the-bus) |
