@@ -1,6 +1,7 @@
-<h2><a href="https://leetcode.com/problems/market-analysis-i/">1158. Market Analysis I</a></h2><h3>Medium</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table: <code>Users</code></p>
+<h2><a href="https://leetcode.com/problems/market-analysis-i/">1158. Market Analysis I</a></h2><h3>Medium</h3><hr><p>Table: <code>Users</code></p>
 
-<pre>+----------------+---------+
+<pre>
++----------------+---------+
 | Column Name    | Type    |
 +----------------+---------+
 | user_id        | int     |
@@ -15,7 +16,8 @@ This table has the info of the users of an online shopping website where users c
 
 <p>Table: <code>Orders</code></p>
 
-<pre>+---------------+---------+
+<pre>
++---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
 | order_id      | int     |
@@ -33,7 +35,8 @@ buyer_id and seller_id are foreign keys to the Users table.
 
 <p>Table: <code>Items</code></p>
 
-<pre>+---------------+---------+
+<pre>
++---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
 | item_id       | int     |
@@ -53,7 +56,8 @@ item_id is the primary key (column with unique values) of this table.
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> 
+<pre>
+<strong>Input:</strong> 
 Users table:
 +---------+------------+----------------+
 | user_id | join_date  | favorite_brand |
@@ -93,4 +97,3 @@ Items table:
 | 4         | 2018-05-21 | 0              |
 +-----------+------------+----------------+
 </pre>
-</div>
