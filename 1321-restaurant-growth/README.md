@@ -1,6 +1,7 @@
-<h2><a href="https://leetcode.com/problems/restaurant-growth/">1321. Restaurant Growth</a></h2><h3>Medium</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table: <code>Customer</code></p>
+<h2><a href="https://leetcode.com/problems/restaurant-growth/">1321. Restaurant Growth</a></h2><h3>Medium</h3><hr><p>Table: <code>Customer</code></p>
 
-<pre>+---------------+---------+
+<pre>
++---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
 | customer_id   | int     |
@@ -27,7 +28,8 @@ amount is the total paid by a customer.
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> 
+<pre>
+<strong>Input:</strong> 
 Customer table:
 +-------------+--------------+--------------+-------------+
 | customer_id | name         | visited_on   | amount      |
@@ -59,4 +61,3 @@ Customer table:
 3rd moving average from 2019-01-03 to 2019-01-09 has an average_amount of (120 + 130 + 110 + 140 + 150 + 80 + 110)/7 = 120
 4th moving average from 2019-01-04 to 2019-01-10 has an average_amount of (130 + 110 + 140 + 150 + 80 + 110 + 130 + 150)/7 = 142.86
 </pre>
-</div>
