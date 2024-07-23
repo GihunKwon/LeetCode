@@ -28,3 +28,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0178-rank-scores](https://github.com/GRetriever/LeetCode/tree/master/0178-rank-scores) |
 | [1327-last-person-to-fit-in-the-bus](https://github.com/GRetriever/LeetCode/tree/master/1327-last-person-to-fit-in-the-bus) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0492-construct-the-rectangle](https://github.com/GRetriever/LeetCode/tree/master/0492-construct-the-rectangle) |
+<!---LeetCode Topics End-->
