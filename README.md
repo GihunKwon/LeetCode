@@ -34,4 +34,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0492-construct-the-rectangle](https://github.com/GRetriever/LeetCode/tree/master/0492-construct-the-rectangle) |
+## Array
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/GRetriever/LeetCode/tree/master/0088-merge-sorted-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/GRetriever/LeetCode/tree/master/0088-merge-sorted-array) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/GRetriever/LeetCode/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
